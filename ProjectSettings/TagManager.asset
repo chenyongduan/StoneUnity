@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - CameraShake
+  - ThrowTransform
+  - FailPage
+  - Platform
+  - EnemyHuman
+  - EnemyWeapon
+  - Weapon
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - 
+  - 
+  - 
+  - Player
+  - Enemy
+  - Weapon
+  - Platform
+  - EnemyWeapon
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 79662325
+    locked: 0
+  - name: Cloud
+    uniqueID: 1715557159
+    locked: 0
+  - name: Mountain
+    uniqueID: 2986050133
+    locked: 0
+  - name: Floor
+    uniqueID: 913352999
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Weapon
+    uniqueID: 3138947207
+    locked: 0
