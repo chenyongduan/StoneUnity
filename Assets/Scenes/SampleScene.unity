@@ -475,7 +475,7 @@ Rigidbody2D:
   m_Constraints: 4
 --- !u!95 &141477214
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -492,7 +492,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &141477215
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1416,7 +1417,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &519420033
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1433,7 +1434,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &541564077
 GameObject:
   m_ObjectHideFlags: 0
@@ -1749,7 +1751,7 @@ MonoBehaviour:
   FlyEnemyAI: {fileID: 5446930465113449454, guid: 4ff4e8ae78ff6c34c9e35e227a9462c6, type: 3}
   SkyEnemyAI: {fileID: 8466492643106666372, guid: 7b530aad6e210724999f78f0fbaa559c, type: 3}
   FlyEnemyCreateTime: 8
-  SkyEnemyCreateTime: 10
+  SkyEnemyCreateTime: 5
   startTransform: {fileID: 2081212175}
   endTransform: {fileID: 541564078}
 --- !u!4 &771964771
@@ -2883,8 +2885,8 @@ Canvas:
   m_GameObject: {fileID: 1608328655}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
